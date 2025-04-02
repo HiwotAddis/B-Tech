@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+  html {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply font-poppins;
+    color: rgb(var(--foreground-rgb));
+    background: white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+
+  p, span, a {
+    @apply font-inter;
+  }
+}
+
+/* Wave Animation */
+.waves {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wave-parallax1 {
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+.wave-parallax2 {
+  animation: wave 9s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite;
+}
+
+.wave-parallax3 {
+  animation: wave 11s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.25s infinite;
+}
+
+.wave-parallax4 {
+  animation: wave 13s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.375s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
