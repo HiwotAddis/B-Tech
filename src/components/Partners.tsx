@@ -5,11 +5,11 @@ import Image from 'next/image';
 import { gsap } from 'gsap';
 
 const partners = [
-  { name: 'Muast', logo: '/partners/muast.png' },
-  { name: 'Chatbot', logo: '/partners/chatbot.png' },
-  { name: 'Soluck', logo: '/partners/soluck.png' },
-  { name: 'Wattse', logo: '/partners/wattse.png' },
-  { name: 'Nextech', logo: '/partners/nextech.png' },
+  { name: 'Muast', logo: '/partners/Muast.jpg' },
+  { name: 'Chatbot', logo: '/partners/Chatbot.jpg' },
+  { name: 'Soluck', logo: '/partners/Soluck.jpg' },
+  { name: 'Wattse', logo: '/partners/Wattse.jpg' },
+  { name: 'Nextech', logo: '/partners/Nextech.jpg' },
 ];
 
 export default function Partners() {
