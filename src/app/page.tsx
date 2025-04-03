@@ -6,7 +6,7 @@ import Counter from '../components/Counter';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Partners from '../components/Partners';
 import Testimonials from '../components/Testimonials';
-
+//
 export default function Home() {
   return (
     <>

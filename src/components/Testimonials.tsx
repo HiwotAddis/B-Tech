@@ -19,7 +19,7 @@ const testimonials = [
     role: 'CTO, TechVision',
     image: '/testimonials/person2.jpg',
     rating: 5,
-    text: 'Working with Bekur Tech has transformed our business operations. Their innovative solutions and dedicated support team have exceeded our expectations.',
+    text: 'Working with B-Tech has transformed our business operations. Their innovative solutions and dedicated support team have exceeded our expectations.',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const testimonials = [
     role: 'CEO, InnovateCorp',
     image: '/testimonials/person3.jpg',
     rating: 5,
-    text: 'The level of expertise and professionalism at Bekur Tech is outstanding. They delivered our project on time and with exceptional quality.',
+    text: 'The level of expertise and professionalism at B-Tech is outstanding. They delivered our project on time and with exceptional quality.',
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const testimonials = [
     role: 'Product Manager, NextGen',
     image: '/testimonials/person4.jpg',
     rating: 5,
-    text: 'Their commitment to excellence and customer satisfaction is remarkable. Bekur Tech has been instrumental in our digital transformation journey.',
+    text: 'Their commitment to excellence and customer satisfaction is remarkable. B-Tech has been instrumental in our digital transformation journey.',
   },
 ];
 

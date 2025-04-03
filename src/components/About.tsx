@@ -57,7 +57,7 @@ export default function About() {
             <div className="relative w-full aspect-[4/3] max-w-[600px]">
               <Image
                 src="/about-image.jpg"
-                alt="About Bekur Tech"
+                alt="About B-Tech"
                 fill
                 className="object-cover rounded-[20px]"
               />

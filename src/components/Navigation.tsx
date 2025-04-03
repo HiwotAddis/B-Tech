@@ -51,10 +51,7 @@ const Navigation = () => {
     <nav ref={navRef} className="fixed w-full bg-blue-50/90 backdrop-blur-sm z-50 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-blue-600">
-            Bekur
-          </Link>
+          
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

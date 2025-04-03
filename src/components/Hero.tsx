@@ -41,7 +41,6 @@ export default function Hero() {
   };
 
   useEffect(() => {
-    // Auto-advance slides
     slideInterval.current = setInterval(nextSlide, 5000);
     return () => {
       if (slideInterval.current) {
@@ -99,7 +98,7 @@ export default function Hero() {
         <div className="max-w-5xl">
           {/* Welcome Banner */}
           <div className="welcome-banner bg-gradient-to-r from-blue-500 to-black-500 text-white py-3 px-6 rounded-lg inline-block transform -rotate-2 mb-8 shadow-lg">
-            <span className="text-xl font-bold">WELCOME TO BEKUR TECH SOLUTION</span>
+            <span className="text-xl font-bold">WELCOME TO B-TECH </span>
           </div>
 
           

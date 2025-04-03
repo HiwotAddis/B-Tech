@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bekur Tech Solution",
+  title: "B-Tech",
   description: "IT Solutions & Technology Services",
 };
 

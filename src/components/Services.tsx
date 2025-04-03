@@ -105,7 +105,6 @@ export default function Services() {
           ))}
         </div>
 
-        {/* View All Services Button */}
         <div className="text-center mt-4 mb-16">
           <Link
             href="/services"

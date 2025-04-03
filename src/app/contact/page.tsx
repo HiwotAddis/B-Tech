@@ -171,7 +171,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-blue-600">info@bekurtech.com</p>
+                    <p className="text-sm text-blue-600">info@b-tech.com</p>
                   </div>
                 </a>
                 <a href="tel:+15551234567" className="flex items-center text-blue-700 hover:text-blue-800 transition-colors group">
@@ -206,6 +206,7 @@ export default function ContactPage() {
                   loading="lazy"
                   className="rounded-lg"
                 />
+                
               </div>
             </div>
           </div>

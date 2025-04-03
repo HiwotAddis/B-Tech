@@ -20,14 +20,11 @@ export default function Partners() {
     const slider = sliderRef.current;
     if (!slider) return;
 
-    // Clone the first item and append it to the end for seamless loop
     const items = slider.children;
     const itemWidth = items[0].getBoundingClientRect().width + 64; // width + gap
     const totalWidth = itemWidth * items.length;
 
-    // Create infinite scroll animation
     const createAnimation = () => {
-      // Reset position if we've scrolled past all original items
       const resetPosition = () => {
         gsap.set(slider, { x: 0 });
         createAnimation();

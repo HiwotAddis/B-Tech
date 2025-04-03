@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="w-20 h-20 relative">
               <Image
                 src="/logo.png"
-                alt="Bekur Tech Solution"
+                alt="B-Tech"
                 fill
                 className="object-contain"
                 priority
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             
           </Link>
-            <h3 className="text-2xl font-bold mb-4">Bekur Techsolution</h3>
+            <h3 className="text-2xl font-bold mb-4">B-Tech</h3>
             <p className="text-gray-400">
               Empowering businesses through innovative technology solutions.
             </p>
@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-blue-500" />
-                <span>info@bekurtechsolution.com</span>
+                <span>info@btech.com</span>
               </li>
               <li className="flex items-center">
                 <FaMapMarkerAlt className="mr-2 text-blue-500" />
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Bekur Techsolution. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} B-Tech. All rights reserved.</p>
         </div>
       </div>
     </footer>

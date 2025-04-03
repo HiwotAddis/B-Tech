@@ -119,7 +119,6 @@ export default function Counter() {
               className="counter-item flex flex-col items-center text-center text-white"
             >
               <div className="relative mb-6">
-                {/* White background shape */}
                 <div className={`w-24 h-24 ${stat.bgClass} rounded-[20px] rotate-[10deg]`}></div>
                 {/* Icon container */}
                 <div className="absolute inset-0 flex items-center justify-center text-blue-900">
