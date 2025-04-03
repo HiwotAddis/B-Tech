@@ -22,7 +22,6 @@ const Footer = () => {
             </div>
             
           </Link>
-            <h3 className="text-2xl font-bold mb-4">B-Tech</h3>
             <p className="text-gray-400">
               Empowering businesses through innovative technology solutions.
             </p>
